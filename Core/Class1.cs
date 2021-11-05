@@ -6,6 +6,7 @@ namespace Core
     {
         string g = "aa";
         private string hh = "aaaa";
+        private string aa = "asss";
 
     }
 }

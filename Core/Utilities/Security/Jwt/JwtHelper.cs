@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
-using Core.Entities.Concrete;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Security.Claims;
@@ -10,8 +9,7 @@ using Core.Extensions;
 using Core.Utilities.Security.Encription;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.Extensions.Configuration;
- 
-
+using Core.Entities.Concrete;
 
 namespace Core.Utilities.Security.Jwt
 {
